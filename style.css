@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Pp_Neue_Machina;
-  src: url(PPNeueMachinaInktrapMedium.ttf);
+  font-family: "Pp_Neue_Machina";
+  src: url("PPNeueMachinaInktrapMedium.ttf");
 }
 
 body[theme="black"] {
