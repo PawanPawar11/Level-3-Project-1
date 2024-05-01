@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Pp_Neue_Machina;
+  src: url(PPNeueMachinaInktrapMedium.ttf);
+}
+
+body[theme="black"] {
+  background-color: #000;
+}
+
+body[theme="cyan"] {
+  background-color: #80becc;
+}
+
+body[theme="salmon"] {
+  background-color: salmon;
+}
+
+body[theme="white"] {
+  background-color: #fff;
+}
