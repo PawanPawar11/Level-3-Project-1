@@ -3,38 +3,47 @@
   src: url("PPNeueMachinaInktrapMedium.ttf");
 }
 
+:root {
+  --salmon: #ef9d71;
+  --black: #000;
+  --white: #fff;
+  --cyan: #aedee0;
+  --dsalmon: #503431;
+  --dcyan: #2e3e42;
+}
+
 *::selection {
-  background-color: #ef9d71;
+  background-color: var(--salmon);
 }
 
 body[theme="black"] {
-  background-color: #000;
+  background-color: var(--black);
 }
 
 body[theme="black"] .section {
-  color: #fff;
+  color: var(--white);
 }
 
 body[theme="cyan"] {
-  background-color: #80becc;
+  background-color: var(--cyan);
 }
 
 body[theme="cyan"] .section {
-  color: #2e3e42;
+  color: var(--dcyan);
 }
 
 body[theme="salmon"] {
-  background-color: salmon;
+  background-color: var(--salmon);
 }
 
 body[theme="salmon"] .section {
-  color: rgb(80, 52, 49);
+  color: var(--dsalmon);
 }
 
 body[theme="white"] {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 body[theme="white"] .section {
-  color: #000;
+  color: var(--black);
 }
