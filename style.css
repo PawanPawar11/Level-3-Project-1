@@ -1,7 +1,11 @@
 @font-face {
-  font-family: "Pp_Neue_Machina";
-  src: url("PPNeueMachinaInktrapMedium.ttf");
+  font-family: "PPNeueMachina";
+  src: url("fonts/PPNeueMachina-InktrapRegular.ttf");
 }
+
+/* .PPNeueMachina {
+  font-family: "PPNeueMachina";
+} */
 
 :root {
   --salmon: #ef9d71;
