@@ -5,8 +5,7 @@ var t1 = gsap.timeline({
     scrollTrigger: {
         trigger: ".home",
         start: "top top",
-        end: "bottom top",
-        pin: true,
+        end: "bottom bottom",
         scrub: 2
     }
 })
@@ -37,4 +36,18 @@ t1
 }, 'b')
 }
 
+function realPageAnimation() {
+    gsap.to(".slide", {
+    scrollTrigger: {
+        trigger: ".real",
+        start: "top top",
+        end: "bottom bottom",
+        scrub: 2
+    },
+    xPercent: -200,
+    ease: Power4
+});
+}
+
 homepageAnimation();
+realPageAnimation();
