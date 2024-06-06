@@ -22,7 +22,7 @@
 }
 
 body {
-  transition: background-color ease-out .5s;
+  transition: background-color ease-out 0.5s;
 }
 
 .vdodiv {
@@ -63,4 +63,16 @@ body[theme="white"] {
 
 body[theme="white"] .section {
   color: var(--black);
+}
+
+.cardm {
+  margin-bottom: 2rem;
+}
+
+.cardm:hover {
+  background-color: #000;
+  color: #aedee0;
+  scale: 1.1;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
 }
